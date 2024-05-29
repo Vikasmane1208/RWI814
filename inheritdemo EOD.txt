@@ -1,0 +1,43 @@
+package com.core;
+
+public class demo0 {
+	void play() {
+		System.out.println(" this is play methode of first class..!");
+	}
+
+}
+/*  Multileval inheritance   */
+
+class demo2 extends demo1{
+	void play()
+	{
+		
+		System.out.println(" this is play methode of demo 2 class ..!");
+	}
+	public static void main(String[] args) {
+
+		demo2 d = new demo2();
+		
+		d.play();
+	}
+}
+class demo1 extends demo0 {
+	void play() {
+		System.out.println(" this is play methode of demo1 class...!");
+	}
+
+	}
+
+/*  Single leval inheritance   */
+/**
+class demo1 extends demo0 {
+	void play() {
+		System.out.println(" this is play methode of demo1 class...!");
+	}
+
+	public static void main(String[] args) {
+
+		demo1 d = new demo1();
+		d.play();
+	}
+}*/
